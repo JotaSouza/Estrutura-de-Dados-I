@@ -15,7 +15,7 @@ public class MainOrdenaCrescente {
 		String[] nome = new String[tamanho];
 		
 		
-		/*for(int i = 0; i < vet.length; i++) {
+		for(int i = 0; i < vet.length; i++) {
 			System.out.print("Digite o "+(i+1)+"º número: ");
 			vet[i] = entrada.nextInt();
 		}
@@ -24,22 +24,20 @@ public class MainOrdenaCrescente {
 		for (int i : vet) {
 			System.out.print(i+" | ");
 		}
-		
+		//Exercício 1
 		OrdenaInsertionSort.insertionSortCrescente(vet);
-		
 		System.out.println("\nVetor ordenado em ordem crescente");
 		for (int i : vet) {
 			System.out.print(i+" | ");
 		}
-		
+		//Exercício 2
 		OrdenaInsertionSort.insertionSortDecrescente(vet);
-		
 		System.out.println("\nVetor ordenado em ordem decrescente");
 		for (int i : vet) {
 			System.out.print(i+" | ");
-		}*/
-		
-		System.out.println("\nOrdenando Strings\n");
+		}
+		System.out.println(" ");
+		System.out.println("\nOrdenando Strings");
 		for(int i = 0; i < nome.length; i++) {
 			System.out.print("Digite a "+(i+1)+"ª palavra: ");
 			nome[i] = entrada.next();
@@ -49,15 +47,18 @@ public class MainOrdenaCrescente {
 		for (String i : nome) {
 			System.out.print(i+" | ");
 		}
-		
+		//Exercício 3
 		 OrdenaInsertionSort.insertionSortCrescenteString(nome);
-		 
 		 System.out.println("\nVetor de Strings ordenado em ordem crescente");
 		 for (String i : nome) {
 				System.out.print(i+" | ");
 			}
-		
-		 
+		//Exercício 4
+		 OrdenaInsertionSort.insertionSortDecrescenteString(nome);
+		 System.out.println("\nVetor de Strings ordenado em ordem decrescente");
+		 for (String i : nome) {
+				System.out.print(i+" | ");
+			}
 		entrada.close();
 	}
 
