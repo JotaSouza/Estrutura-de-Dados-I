@@ -1,4 +1,4 @@
-package MetodosOrdenacao;
+package Trabalhos.MetodosOrdenacao;
 
 public class SelctionSort {
 
