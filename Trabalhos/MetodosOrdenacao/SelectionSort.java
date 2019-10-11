@@ -1,6 +1,6 @@
 package Trabalhos.MetodosOrdenacao;
 
-public class SelctionSort {
+public class SelectionSort {
 
 	//método que faz a ordenação do vetor
 	public int[] ordenar(int[] vetor){
